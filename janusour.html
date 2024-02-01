@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"
+    <title>Jana Al-Nsour - Personal Website</title>
+    <style>
+        body {
+            font-family: 'times new roman', sans-serif;
+            color: #333;
+            margin: 0;
+            background-color: #dbdfb9;
+            font-weight: bold;
+            position: relative; /* Make the body a positioning context for absolute positioning of icons */
+        }
+
+        header {
+            padding: 10px;
+            text-align: center;
+            animation: fadeIn 1s ease-in-out;
+            transition: background-color 0.5s ease-in-out;
+            background: url('https://i.pinimg.com/474x/20/f9/a6/20f9a64ee09f2b3ce59ab139098a0dc8.jpg') center center fixed; /* Replace 'your-image-url.jpg' with the actual path to your image */
+            background-size: cover;
+            position: relative; /* Make the header a positioning context for absolute positioning of icons */
+        }
+
+        .icon {
+            position: absolute;
+            width: 20px;
+            height: 20px;
+            background-color: #fffc00;
+            border-radius: 50%;
+            animation: twinkle 3s infinite;
+        }
+
+        .icon1 { top: 50px; left: 20px; }
+        .icon2 { top: 120px; left: 80px; }
+        .icon3 { top: 200px; left: 150px; }
+        /* Add more icons and adjust positions as needed */
+
+        .picture {
+            width: 100px;
+            height: 100px;
+            margin: 10px;
+            object-fit: cover;
+        }
+
+        @keyframes twinkle {
+            0%, 100% {
+                transform: scale(1);
+            }
+            50% {
+                transform: scale(0);
+            }
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #333;
+            padding: 10px;
+        }
+
+        nav a {
+            color: rgb(252, 252, 251);
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        section {
+            padding: 20px;
+            font-weight: bold;
+        }
+
+        .image-section {
+            display: wrap;
+            flex-wrap: wrap;
+            justify-content: space-around;
+        }
+
+        .image-section img {
+            width: 160px;
+            height: 160px;
+            margin: 10px;
+            object-fit: cover;
+            border-radius: 10px;
+        }
+
+        footer {
+            background-color: #456153a3;
+            text-align: center;
+            padding: 10px;
+            font-weight: bold;
+        }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+            }
+            to {
+                opacity: 1;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Jana Al-Nsour</h1>
+        <p>Expat living life in Indonesia since '11</p>
+        <p>The co-cultural non-vixen from Jordan to Indonesia >.<</p>
+        <div class="icon icon1"></div>
+        <div class="icon icon2"></div>
+        <div class="icon icon3"></div>
+        <!-- Add more icons with different classes and adjust positions as needed -->
+    </header>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#life">Life</a>
+        <a href="#get-to-know-me">Get to Know Me</a>
+    </nav>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>My diverse interests paint a vivid picture of my cultural journey, contributing to my profound cultural awareness. As an enthusiastic follower of EXO, the South Korean-Chinese boy band, their music and visuals have influenced my appreciation for the richness of diverse artistic expressions. Cats, with their playful charm, have woven a universal thread into my life, transcending cultural boundaries. My love for Asian cuisine extends beyond flavors, becoming a gateway to understanding the cultural stories embedded in each dish. Hailing from Jordan, I cherish the traditions and vibrancy of my heritage, fostering a deep connection to Jordanian culture. Since settling in Indonesia in 2011, I've immersed myself in the local customs, embracing the warmth and hospitality that characterize Indonesian culture. These diverse interests have not only shaped my personal preferences but have also fueled my journey toward becoming a more culturally aware individual, instilling in me a profound respect for the beauty and uniqueness inherent in each cultural tapestry I encounter.</p>
+    </section>
+
+    <section id="Fun Facts">
+        <h2>You know what?</h2>
+        <p>Animals rule.</p>
+    </section>
+
+    <section id="pictures">
+        <h2>Pictures</h2>
+        <div class="image-section">
+            <img src="https://i.pinimg.com/474x/2c/58/91/2c589192caa57a8695c7710f35b0178c.jpg" alt="Femme fatale">
+            <img src="https://i.pinimg.com/474x/0c/c1/50/0cc15076a01c6cf1754ea76303b46adc.jpg" alt="Kitties">
+            <img src="https://i.pinimg.com/474x/35/a6/41/35a641fc32dcd0998711b9511324a843.jpg" alt="love">
+            <img src="https://i.pinimg.com/474x/2e/63/aa/2e63aadfff91ce8040c51a51a4586a9e.jpg" alt="love">
+            <img src="https://i.pinimg.com/474x/3a/d9/dc/3ad9dcc613174bbabb6921525b811843.jpg" alt="love">
+            <img src="https://i.pinimg.com/474x/6e/c3/24/6ec324c0dd603b7ca2e64dbef25bdb96.jpg" alt="love">
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Follow me on <a href="https://www.instagram.com/janansourr">Instagram</a> and <a href="https://www.p
+
